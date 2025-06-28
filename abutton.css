@@ -1,0 +1,67 @@
+button, a.maklumat, a.banding{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width:90px;
+    padding: 7px 8px 7px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    background-position: 8px; 
+    background-repeat: no-repeat;
+}
+button.login{
+    background-image: url(imej/logmasuk.png);
+}
+button.signup{
+    background-image: url(imej/daftarmasuk.png);
+}
+button.batal{
+    background-image: url(imej/delete2.png);
+}
+button.import{
+    background-image: url(imej/import.png);
+}
+button.tambah{
+    background-image: url(imej/add.png);
+}
+button.merah{
+    background-image: url(imej/red.png);
+}
+button.biru{
+    background-image: url(imej/blue.png);
+}
+button.hijau{
+    background-image: url(imej/green.png);
+}
+button.hitam{
+    background-image: url(imej/#000000.png);
+}
+button.cetak{
+    background-image: url(imej/printer.png);
+    margin-bottom: 25px;
+}
+button.cari{
+    background-image: url(imej/search.png);
+}
+a.maklumat{
+    width:110px;
+    text-decoration: none;
+    background-image: url(imej/info.png);
+}
+a.banding{
+    width:110px;
+    text-decoration: none;
+    background-image: url(imej/note.png);
+}
+button:hover,
+a.maklumat:hover,
+a.banding:hover{
+    background-color:rgb(181, 174, 185);
+    cursor: pointer;
+}
+button.signup {border-radius: 20px;}
+button.login {border-radius: 20px;}
+button.tambah {border-radius: 20px;}
+button.batal {border-radius: 20px;}

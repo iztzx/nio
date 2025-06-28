@@ -1,0 +1,43 @@
+.user-profile {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.user-profile h2 {
+  margin-bottom: 20px;
+}
+
+.user-profile p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.user-profile a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(155, 27, 27);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.user-profile a:nth-of-type(2) {
+  background-color: black;
+  color: white;
+}
+
+.user-profile a:nth-of-type(2):hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+  .user-profile a:hover {
+    background-color: #541d17;
+    cursor: pointer;
+  }
+  

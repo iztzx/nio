@@ -1,0 +1,59 @@
+.import-form {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  .import-form input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .import-form input[type="submit"]:hover {
+    background-color: #545454;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .import-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .import-form .template {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: DarkSlateBlue;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .import-form .template:hover {
+    background-color: CornflowerBlue;
+    color: white;
+    cursor: pointer;
+  }

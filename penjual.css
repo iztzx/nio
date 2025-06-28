@@ -1,0 +1,132 @@
+form {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    border:1px solid #bbb;
+    border-radius: 15px;
+    padding:20px
+}
+.preview-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border:1px solid #bbb;
+    border-radius: 15px;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+
+h2{
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+form input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+} 
+form input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+} 
+form input[type="number"][name="harga"] {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 10px; 
+    width:95%;
+}
+form input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}
+form input[type="submit"]:hover {
+    background-color: #545454;
+    color: white;
+    cursor: pointer;
+}
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}
+
+form button[type="submit"]:hover {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #2e2e2e;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}
+
+form button[type="clear"] {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #5c0000;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}
+
+form button[type="clear"]:hover {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #a00000;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter";
+}

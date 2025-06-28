@@ -1,0 +1,109 @@
+/* Style for the main content container */
+.main-content {
+  margin: 30px auto;
+  max-width: 80%;
+  min-height: 300px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #fff;
+}
+
+/* Style for the shopping cart table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+form input[type="number"] {
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  padding: 10px; 
+  margin:10px;
+  width:40px;
+}
+thead {
+  background-color: #f7f7f7;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+td img {
+  max-width: 100px;
+}
+
+td button {
+  font-size: 14px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.update-cart-btn {
+  margin-right: 5px;
+}
+.update-cart-btn:hover {
+  background-color: #474747;
+}
+.remove-from-cart-btn {
+  background-color: #a10010;
+}
+.remove-from-cart-btn:hover {
+  background-color: #4c0008;
+}
+.clear-cart-btn {
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin:0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #892f2f;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.clear-cart-btn:hover{
+  background-color: #43171b;
+}
+.print-btn {
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin:0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.print-btn:hover{
+  background-color: #484848;
+}
+/* Style for the checkout button */
+.product-container a {
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.product-container a:hover {
+  background-color: #1e7e34;
+}
