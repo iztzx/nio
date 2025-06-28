@@ -70,7 +70,7 @@
                 </tr>
                 <tr>
                     <td>Password</td>
-                    <input required type="password" name="katalaluan" placeholder="Password" maxlength="8" title="Maximum length is 8">
+                    <td><input required type="password" name="katalaluan" placeholder="Password" maxlength="8" title="Maximum length is 8"></td>
                 </tr>
             </table>
 

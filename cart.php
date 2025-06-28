@@ -4,6 +4,15 @@ include("header.php");
 // Sambungan ke pangkalan data
 include("connection.php");
 
+//Semak sama ada pengguna telah log masuk
+if (empty($_SESSION['status']) || $_SESSION['status'] !== 'pembeli') {
+    echo "<script>
+        alert('Please sign in as an user.');
+        window.location.href = 'menu.php';
+    </script>";
+    exit;
+}
+
 // Semak sama ada parameter 'action' telah ditetapkan dan tambah/keluarkan produk dalam senarai mengikutnya
 if (isset($_GET['action'])) {
     switch ($_GET['action']) {
